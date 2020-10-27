@@ -57,9 +57,9 @@ public class NoteOrgManipulation {
                     null, null, null);
 
             cursor.moveToFirst();
-            NoteOrganizer newComment = cursorToComment(cursor);
+            NoteOrganizer newNote = cursorToNote(cursor);
             cursor.close();
-            return newComment;
+            return newNote;
         }
 
         public void deleteNote(NoteOrganizer note) {
@@ -88,7 +88,7 @@ public class NoteOrgManipulation {
 
             cursor.moveToFirst();
             while (!cursor.isAfterLast()) {
-                NoteOrganizer note = cursorToComment(cursor);
+                NoteOrganizer note = cursorToNote(cursor);
                 notes.add(note);
                 cursor.moveToNext();
             }
@@ -97,7 +97,7 @@ public class NoteOrgManipulation {
             return notes;
         }
 
-        private NoteOrganizer cursorToComment(Cursor cursor) {
+        private NoteOrganizer cursorToNote(Cursor cursor) {
             NoteOrganizer note = new NoteOrganizer();
             note.setId(cursor.getLong(0));
             note.setNoteTitle(cursor.getString(1));

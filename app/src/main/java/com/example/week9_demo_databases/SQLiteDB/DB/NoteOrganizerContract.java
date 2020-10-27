@@ -13,6 +13,7 @@ public final class NoteOrganizerContract {
     public static class OrganizerNoteEntry implements BaseColumns {
         public static final String TABLE_NAME = "entry";
         public static final String COLUMN_NAME_TITLE = "note_title";
+        
         public static final String COLUMN_NAME_DESCRIPTION = "note_description";
     }
 }
