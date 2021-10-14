@@ -1,4 +1,4 @@
-package com.example.week9_demo_databases.RoomDB.DB;
+package com.example.week7_demo_databases;
 
 
 import java.io.Serializable;
@@ -7,7 +7,7 @@ import androidx.room.*;
 
 @Entity(tableName = "items")
 
-public class NoteOrgRoom  implements Serializable {
+public class NoteOrgRoom  implements  Serializable{
 
 
     @PrimaryKey(autoGenerate = true)

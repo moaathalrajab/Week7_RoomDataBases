@@ -1,4 +1,4 @@
-package com.example.week9_demo_databases.RoomDB.DB;
+package com.example.week7_demo_databases;
 
 
 import android.content.Context;
@@ -9,7 +9,6 @@ import android.content.Context;
         import android.widget.TextView;
 
 import com.example.week9_demo_databases.R;
-import com.example.week9_demo_databases.RoomDB.UpdateNoteActivity;
 
 import java.util.List;
 

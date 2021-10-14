@@ -1,4 +1,4 @@
-package com.example.week9_demo_databases.RoomDB.DB;
+package com.example.week7_demo_databases;
 
 import android.content.Context;
 

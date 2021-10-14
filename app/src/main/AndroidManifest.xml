@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RoomDB.UpdateNoteActivity"></activity>
-        <activity android:name=".RoomDB.AddNoteActivity" />
-        <activity android:name=".RealmDB.RealmDBActivity" />
-        <activity android:name=".RoomDB.RoomDBActivity" />
-        <activity android:name=".SQLiteDB.SQLiteActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.week7_demo_databases.UpdateNoteActivity"></activity>
+        <activity android:name="com.example.week7_demo_databases.AddNoteActivity" />
+
+        <activity android:name="com.example.week7_demo_databases.RoomDBActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

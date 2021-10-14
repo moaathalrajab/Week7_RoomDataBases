@@ -1,13 +1,11 @@
-package com.example.week9_demo_databases.RoomDB;
+package com.example.week7_demo_databases;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.week9_demo_databases.R;
-import com.example.week9_demo_databases.RoomDB.DB.DatabaseClient;
-import com.example.week9_demo_databases.RoomDB.DB.NoteOrgRoom;
+
 
 import android.content.DialogInterface;
         import android.content.Intent;
@@ -16,6 +14,8 @@ import android.content.DialogInterface;
 import android.view.View;
 import android.widget.EditText;
         import android.widget.Toast;
+
+import com.example.week9_demo_databases.R;
 
 public class UpdateNoteActivity extends AppCompatActivity {
 
@@ -34,7 +34,7 @@ public class UpdateNoteActivity extends AppCompatActivity {
 
 
 
-        final NoteOrgRoom note = (NoteOrgRoom) getIntent().getSerializableExtra("Note");
+        final NoteOrgRoom note = (NoteOrgRoom)  getIntent().getSerializableExtra("Note");
 
         loadNote(note);
 

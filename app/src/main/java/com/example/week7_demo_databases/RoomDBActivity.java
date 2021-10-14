@@ -1,4 +1,4 @@
-package com.example.week9_demo_databases.RoomDB;
+package com.example.week7_demo_databases;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,9 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.week9_demo_databases.R;
-import com.example.week9_demo_databases.RoomDB.DB.DatabaseClient;
-import com.example.week9_demo_databases.RoomDB.DB.NoteOrgAdapter;
-import com.example.week9_demo_databases.RoomDB.DB.NoteOrgRoom;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
         import android.content.Intent;

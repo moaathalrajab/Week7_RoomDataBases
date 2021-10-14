@@ -1,4 +1,4 @@
-package com.example.week9_demo_databases.RoomDB;
+package com.example.week7_demo_databases;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,8 +10,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.week9_demo_databases.R;
-import com.example.week9_demo_databases.RoomDB.DB.DatabaseClient;
-import com.example.week9_demo_databases.RoomDB.DB.NoteOrgRoom;
 
 public class AddNoteActivity  extends AppCompatActivity {
 
